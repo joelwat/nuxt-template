@@ -49,6 +49,8 @@ export default {
     }
   },
 
+  srcDir: 'src/',
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
