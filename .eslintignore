@@ -1,0 +1,7 @@
+node_modules/
+dist/
+coverage
+.nuxt/
+.yarn/
+src/
+.eslintrc.js
