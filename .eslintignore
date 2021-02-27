@@ -3,5 +3,4 @@ dist/
 coverage
 .nuxt/
 .yarn/
-src/
 .eslintrc.js
