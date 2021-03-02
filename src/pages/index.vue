@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        web-screener
+        {{ title }}
       </h1>
       <div class="links">
         <a
@@ -12,7 +12,7 @@
           rel="noopener noreferrer"
           class="button--green"
         >
-          Documentation
+          {{ documentationLabel }}
         </a>
         <a
           href="https://github.com/nuxt/nuxt.js"
@@ -20,7 +20,7 @@
           rel="noopener noreferrer"
           class="button--grey"
         >
-          GitHub
+          {{ githubName }}
         </a>
       </div>
     </div>
@@ -28,9 +28,24 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
+import {
+  defineComponent,
+  ref,
+} from '@nuxtjs/composition-api';
 
-export default Vue.extend({});
+export default defineComponent({
+  setup() {
+    const title = ref('web-screener');
+    const documentationLabel = ref('Documentation');
+    const githubName = ref('Github');
+
+    return {
+      documentationLabel,
+      githubName,
+      title,
+    };
+  },
+});
 </script>
 
 <style>
