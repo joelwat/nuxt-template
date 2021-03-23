@@ -2,7 +2,7 @@
 
 name: Run Tests
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the develop branch
   push:
@@ -27,5 +27,6 @@ jobs:
 
       # Runs unit tests
       - name: Run `yarn test`
-        run: yarn test
+      - run: yarn
+      - run: yarn test
 
