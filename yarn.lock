@@ -1716,10 +1716,10 @@
     consola "^2.15.3"
     defu "^3.2.2"
 
-"@nuxtjs/composition-api@^0.23.0":
-  version "0.23.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/composition-api/-/composition-api-0.23.0.tgz#18596594ce45d69c0db4c3a68658b2f1229909fd"
-  integrity sha512-E2N2iDUabGYiCCclj8s/eiQgPTaJEnmV0YzrNucnPRfJEdmjigGx76RF+fEEboBMqltC41AyooBzBLbCjB7FqQ==
+"@nuxtjs/composition-api@^0.23.1":
+  version "0.23.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/composition-api/-/composition-api-0.23.1.tgz#50d00a51a29fd180bfa0bbe4267ac5c4b9e9dd28"
+  integrity sha512-AOkTUvJUmlNjom/DigfU3sLf5CbYNog58M/HXVm28/Bw+1aZprpyw+NW0ABNNKqlEb43sYyb8ePmWX6vsXU05A==
   dependencies:
     "@vue/composition-api" "1.0.0-rc.6"
     defu "^3.2.2"
