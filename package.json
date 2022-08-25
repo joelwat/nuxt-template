@@ -52,7 +52,7 @@
     "node-gyp": "^9.1.0",
     "sass": "1.54.5",
     "sass-loader": "13.0.2",
-    "ts-jest": "28.0.7",
+    "ts-jest": "28.0.8",
     "vue-jest": "3.0.7",
     "webpack": "^5.74.0"
   },
