@@ -7761,21 +7761,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-typescript@npm:3.4.0":
-  version: 3.4.0
-  resolution: "eslint-import-resolver-typescript@npm:3.4.0"
+"eslint-import-resolver-typescript@npm:3.5.0":
+  version: 3.5.0
+  resolution: "eslint-import-resolver-typescript@npm:3.5.0"
   dependencies:
     debug: ^4.3.4
     enhanced-resolve: ^5.10.0
     get-tsconfig: ^4.2.0
     globby: ^13.1.2
-    is-core-module: ^2.9.0
+    is-core-module: ^2.10.0
     is-glob: ^4.0.3
-    synckit: ^0.8.1
+    synckit: ^0.8.3
   peerDependencies:
     eslint: "*"
     eslint-plugin-import: "*"
-  checksum: 42fa7fbf7a2144d27152567a2f2a6e6847d964a87ef7da29f559d09be44d0328a1894ea5186cf0824cecf3c9aec95bbb481d8ecbc129a3dd21614fbf3eb9a3b6
+  checksum: 9719d1f68b7bb0eaf8939cff2d3b02b526949f73db744877de781640650dd4d0a17d934222b9ac69e27d9f363ee4569c1aa1a2a2aab6500257517f9bf7d25976
   languageName: node
   linkType: hard
 
@@ -10115,7 +10115,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.7.0, is-core-module@npm:^2.8.1, is-core-module@npm:^2.9.0":
+"is-core-module@npm:^2.10.0, is-core-module@npm:^2.7.0, is-core-module@npm:^2.8.1, is-core-module@npm:^2.9.0":
   version: 2.10.0
   resolution: "is-core-module@npm:2.10.0"
   dependencies:
@@ -12623,7 +12623,7 @@ __metadata:
     eslint: 8.22.0
     eslint-config-airbnb-typescript: 17.0.0
     eslint-import-resolver-alias: 1.1.2
-    eslint-import-resolver-typescript: 3.4.0
+    eslint-import-resolver-typescript: 3.5.0
     eslint-plugin-import: 2.26.0
     eslint-plugin-jest: 26.8.7
     eslint-plugin-nuxt: 3.2.0
@@ -16643,13 +16643,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"synckit@npm:^0.8.1":
-  version: 0.8.2
-  resolution: "synckit@npm:0.8.2"
+"synckit@npm:^0.8.3":
+  version: 0.8.3
+  resolution: "synckit@npm:0.8.3"
   dependencies:
     "@pkgr/utils": ^2.3.0
     tslib: ^2.4.0
-  checksum: ec5b94a12dc222efffb99707d5db651a012bcf75001c3c5c774cbab8f569188dcba77b2bb96059f0f05a0e70682ef8ad6ff6a612c704fb8d3d7a7caa40ed7b70
+  checksum: ba6baa7c32e69b38eebb322a8eb1712a117f7f1eaa42e75623c7d6da43f0e61d3ac33fa962c2c58a8b37742f1e0ae9d21f04c9da0dbf34d618a8780055e9e1fa
   languageName: node
   linkType: hard
 
