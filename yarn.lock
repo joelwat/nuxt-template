@@ -3617,25 +3617,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/compiler-core@npm:3.2.45":
-  version: 3.2.45
-  resolution: "@vue/compiler-core@npm:3.2.45"
+"@vue/compiler-core@npm:3.2.46":
+  version: 3.2.46
+  resolution: "@vue/compiler-core@npm:3.2.46"
   dependencies:
     "@babel/parser": ^7.16.4
-    "@vue/shared": 3.2.45
+    "@vue/shared": 3.2.46
     estree-walker: ^2.0.2
     source-map: ^0.6.1
-  checksum: e3c687b24c16c2b320c02ed38960f8bee7dcb88bddb09e60a80d2d4dc004070cbbd4eccbc99cc168d48d753ff60d0b9eefba835e1dec3b7f233a98c89af31c07
+  checksum: a235dc93b6761e606e5a815a772fa6042a186ebc0918e65cd8c15bbbe0500c18ac230fd742143835b68edf45177264e9f02a6d6c385af09674fe14ff9d60dca2
   languageName: node
   linkType: hard
 
-"@vue/compiler-dom@npm:3.2.45":
-  version: 3.2.45
-  resolution: "@vue/compiler-dom@npm:3.2.45"
+"@vue/compiler-dom@npm:3.2.46":
+  version: 3.2.46
+  resolution: "@vue/compiler-dom@npm:3.2.46"
   dependencies:
-    "@vue/compiler-core": 3.2.45
-    "@vue/shared": 3.2.45
-  checksum: 89115538635f0da9cce615de5488d2759256fa573976a09a049536dbb94e9b5086b46f2f11e743cf0a7b14837161b3191c67611e0493054a5d4c4b96a322c901
+    "@vue/compiler-core": 3.2.46
+    "@vue/shared": 3.2.46
+  checksum: dfbdd45c23247ecf323ae84a292787b157feeab0b4003a78b943e4b6913809a65ada35b3541ab12e70a108d00ca51d9fc788f75b995efe3f32e89ff86b55dba0
   languageName: node
   linkType: hard
 
@@ -3690,10 +3690,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/shared@npm:3.2.45":
-  version: 3.2.45
-  resolution: "@vue/shared@npm:3.2.45"
-  checksum: ff3205056caed2a965aa0980e21319515ce13c859a9b269fdab0ee8b3c9f3d8eec7eefdb7fd6c6b47c12acdc7bf23c6c187b6191054221b4a29108139b20c221
+"@vue/shared@npm:3.2.46":
+  version: 3.2.46
+  resolution: "@vue/shared@npm:3.2.46"
+  checksum: afd106c5378e1aa75143b7453c731ba3c3181f6582b83d4070c6344901c8b16fed38f3e97a72cbdce9137121345f38770a23e23d6248ef0a6654fdb1d2b0d674
   languageName: node
   linkType: hard
 
@@ -12640,7 +12640,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 5.50.0
     "@typescript-eslint/parser": 5.50.0
     "@vue/cli-service": 5.0.8
-    "@vue/compiler-dom": 3.2.45
+    "@vue/compiler-dom": 3.2.46
     "@vue/eslint-config-airbnb": 6.0.0
     "@vue/test-utils": 1.3.4
     babel-core: 7.0.0-bridge.0
