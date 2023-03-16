@@ -57,5 +57,5 @@
     "vue-template-compiler": "2.7.14",
     "webpack": "5.76.2"
   },
-  "packageManager": "yarn@3.4.1"
+  "packageManager": "yarn@3.5.0"
 }
