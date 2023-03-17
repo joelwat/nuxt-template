@@ -2485,11 +2485,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/types@npm:2.16.0":
-  version: 2.16.0
-  resolution: "@nuxt/types@npm:2.16.0"
+"@nuxt/types@npm:2.16.3":
+  version: 2.16.3
+  resolution: "@nuxt/types@npm:2.16.3"
   dependencies:
-    "@types/autoprefixer": 9.7.2
     "@types/babel__core": 7.20.0
     "@types/compression": 1.7.2
     "@types/connect": 3.4.35
@@ -2497,16 +2496,15 @@ __metadata:
     "@types/file-loader": 5.0.1
     "@types/html-minifier": 4.0.2
     "@types/less": 3.0.3
-    "@types/node": 18.11.18
+    "@types/node": ^16
     "@types/optimize-css-assets-webpack-plugin": 5.0.5
     "@types/pug": 2.0.6
-    "@types/serve-static": 1.15.0
+    "@types/serve-static": 1.15.1
     "@types/terser-webpack-plugin": 4.2.1
     "@types/webpack": 4.41.33
-    "@types/webpack-bundle-analyzer": 4.6.0
-    "@types/webpack-dev-middleware": 5.3.0
-    "@types/webpack-hot-middleware": 2.25.6
-  checksum: b525d5c79f5211514ba180fa0d3d5a0ac752f81e2368f31d4a8fbf4f51e326aa3796613b0635ceba7c2564abda468daeaab49e46196bfed13ec7aa9f2c0910c8
+    "@types/webpack-bundle-analyzer": 3.9.5
+    "@types/webpack-hot-middleware": 2.25.5
+  checksum: 01322f138e628173715bea26a2c18faa4e643b63d61d7a887b7c4b6e0e5023e998dee176ec4fde7739eac236c209de2507dad9d50c5ab54bf428823bf44b3022
   languageName: node
   linkType: hard
 
@@ -2853,16 +2851,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/autoprefixer@npm:9.7.2":
-  version: 9.7.2
-  resolution: "@types/autoprefixer@npm:9.7.2"
-  dependencies:
-    "@types/browserslist": "*"
-    postcss: 7.x.x
-  checksum: 7370a9b126cc5a2f4f20c5e1acb8b4ab17790f1d0108735fc732c3043314b0c7260c262d41bcaa3330b93432873063810662054d2483b786094afa76af467d8e
-  languageName: node
-  linkType: hard
-
 "@types/babel__core@npm:7.20.0, @types/babel__core@npm:^7.1.14":
   version: 7.20.0
   resolution: "@types/babel__core@npm:7.20.0"
@@ -2920,13 +2908,6 @@ __metadata:
   dependencies:
     "@types/node": "*"
   checksum: bfcadb042a41b124c4e3de4925e3be6d35b78f93f27c4535d5ff86980dc0f8bc407ed99b9b54528952dc62834d5a779392f7a12c2947dd19330eb05a6bcae15a
-  languageName: node
-  linkType: hard
-
-"@types/browserslist@npm:*":
-  version: 4.8.0
-  resolution: "@types/browserslist@npm:4.8.0"
-  checksum: 78b2126f9bc2f65bce74afdffd46988a5a734f935ff1f457c64bcc64158bf8a380ce68e0ca079d7ca6da34e4ea78bfee9e03d148e0439c92a489442422be7804
   languageName: node
   linkType: hard
 
@@ -3184,10 +3165,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.11.18":
-  version: 18.11.18
-  resolution: "@types/node@npm:18.11.18"
-  checksum: 03f17f9480f8d775c8a72da5ea7e9383db5f6d85aa5fefde90dd953a1449bd5e4ffde376f139da4f3744b4c83942166d2a7603969a6f8ea826edfb16e6e3b49d
+"@types/node@npm:^16":
+  version: 16.18.16
+  resolution: "@types/node@npm:16.18.16"
+  checksum: 69c422450f046fbdf1904c4fdb9fbc80fda379768f6e5402ac1434fb5955b7b3d0082f02fb9bcd4979f57649ecd9a934277492d757c6ea88d080ba101c1ced48
   languageName: node
   linkType: hard
 
@@ -3279,23 +3260,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/serve-static@npm:*, @types/serve-static@npm:^1.13.10":
+"@types/serve-static@npm:*, @types/serve-static@npm:1.15.1, @types/serve-static@npm:^1.13.10":
   version: 1.15.1
   resolution: "@types/serve-static@npm:1.15.1"
   dependencies:
     "@types/mime": "*"
     "@types/node": "*"
   checksum: 2e078bdc1e458c7dfe69e9faa83cc69194b8896cce57cb745016580543c7ab5af07fdaa8ac1765eb79524208c81017546f66056f44d1204f812d72810613de36
-  languageName: node
-  linkType: hard
-
-"@types/serve-static@npm:1.15.0":
-  version: 1.15.0
-  resolution: "@types/serve-static@npm:1.15.0"
-  dependencies:
-    "@types/mime": "*"
-    "@types/node": "*"
-  checksum: b6ac93d471fb0f53ddcac1f9b67572a09cd62806f7db5855244b28f6f421139626f24799392566e97d1ffc61b12f9de7f30380c39fcae3c8a161fe161d44edf2
   languageName: node
   linkType: hard
 
@@ -3369,34 +3340,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack-bundle-analyzer@npm:4.6.0":
-  version: 4.6.0
-  resolution: "@types/webpack-bundle-analyzer@npm:4.6.0"
+"@types/webpack-bundle-analyzer@npm:3.9.5":
+  version: 3.9.5
+  resolution: "@types/webpack-bundle-analyzer@npm:3.9.5"
   dependencies:
-    "@types/node": "*"
-    tapable: ^2.2.0
-    webpack: ^5
-  checksum: 1cd5baa621a1dbe820bacf981d6e48f3423b733fb5e33c1356347e73d5e3e880ae6ebacf8f43d9e47e135d3ed2653ec5e40e12c6ce187f2eb3f548d9c949f6aa
+    "@types/webpack": ^4
+  checksum: f02fc22b0afdfaa54e79f8d3f67689add9bbb22bba598176c7066c1abcc5f1fd45d8c73076f332d6a5da7ebf0537fc2c93b123cd84dc5e687f86481911edd901
   languageName: node
   linkType: hard
 
-"@types/webpack-dev-middleware@npm:5.3.0":
-  version: 5.3.0
-  resolution: "@types/webpack-dev-middleware@npm:5.3.0"
-  dependencies:
-    webpack-dev-middleware: "*"
-  checksum: 58609c1c34ead0552fe18576c0d6f411b7988030ec3517c07ca9938b4f37f962756b75bb9a694d1315b39134d05e2092b2e3c59ab76ff0715c5484e38602d0c4
-  languageName: node
-  linkType: hard
-
-"@types/webpack-hot-middleware@npm:2.25.6":
-  version: 2.25.6
-  resolution: "@types/webpack-hot-middleware@npm:2.25.6"
+"@types/webpack-hot-middleware@npm:2.25.5":
+  version: 2.25.5
+  resolution: "@types/webpack-hot-middleware@npm:2.25.5"
   dependencies:
     "@types/connect": "*"
-    tapable: ^2.2.0
-    webpack: ^5
-  checksum: e3da40b5a80333ae1ce463d5fc283c79413332a5a7331674b6cf48b1e4138d93f4c8143532a2d374fd474044ad67413d735da4e3b145c056ca9713a2be302ed1
+    "@types/webpack": ^4
+  checksum: 3c125953fa1634a138eb2e535bafcc091e60c9207433809227a02036d851edde526ba623c01efef92f4eea4fbb8002c2feab98b41ea3e3cd3fc7da98bd2cc2d2
   languageName: node
   linkType: hard
 
@@ -11787,7 +11746,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"memfs@npm:^3.1.2, memfs@npm:^3.4.12, memfs@npm:^3.4.3":
+"memfs@npm:^3.1.2, memfs@npm:^3.4.3":
   version: 3.4.13
   resolution: "memfs@npm:3.4.13"
   dependencies:
@@ -12573,7 +12532,7 @@ __metadata:
   dependencies:
     "@babel/core": 7.21.3
     "@babel/eslint-parser": 7.21.3
-    "@nuxt/types": 2.16.0
+    "@nuxt/types": 2.16.3
     "@nuxt/typescript-build": 2.1.0
     "@nuxtjs/axios": 5.13.6
     "@nuxtjs/composition-api": 0.33.1
@@ -14143,7 +14102,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:7.x.x, postcss@npm:^7.0.36":
+"postcss@npm:^7.0.36":
   version: 7.0.39
   resolution: "postcss@npm:7.0.39"
   dependencies:
@@ -17354,21 +17313,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-dev-middleware@npm:*":
-  version: 6.0.1
-  resolution: "webpack-dev-middleware@npm:6.0.1"
-  dependencies:
-    colorette: ^2.0.10
-    memfs: ^3.4.12
-    mime-types: ^2.1.31
-    range-parser: ^1.2.1
-    schema-utils: ^4.0.0
-  peerDependencies:
-    webpack: ^5.0.0
-  checksum: eeda09cf4a1fdb09ee95f96ab657b0fb8d32c56f4d20c7f4499457a015c703f243711fda0b5bc0d103ff9e7c7b9b60568210a4c0fbd6d02361d09d2387cd723a
-  languageName: node
-  linkType: hard
-
 "webpack-dev-middleware@npm:^5.3.1, webpack-dev-middleware@npm:^5.3.3":
   version: 5.3.3
   resolution: "webpack-dev-middleware@npm:5.3.3"
@@ -17555,7 +17499,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5, webpack@npm:^5.54.0":
+"webpack@npm:^5.54.0":
   version: 5.76.1
   resolution: "webpack@npm:5.76.1"
   dependencies:
