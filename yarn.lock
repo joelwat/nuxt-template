@@ -3988,9 +3988,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/test-utils@npm:1.3.5":
-  version: 1.3.5
-  resolution: "@vue/test-utils@npm:1.3.5"
+"@vue/test-utils@npm:1.3.6":
+  version: 1.3.6
+  resolution: "@vue/test-utils@npm:1.3.6"
   dependencies:
     dom-event-types: ^1.0.0
     lodash: ^4.17.15
@@ -3998,7 +3998,7 @@ __metadata:
   peerDependencies:
     vue: 2.x
     vue-template-compiler: ^2.x
-  checksum: c8834fe4d0323afe5b2efea76c116d4ce6114b3179bf114e21b5d8f0d304fbfe7b229f89c6f42ede0ad312ba4d83e4ccd5ba00d3bdee4339b9a3c0edac1be875
+  checksum: 9e397fad618c81126180e743bc69acf94a93f80d45cc6182c2a7178a145e92ea26bd1ea2e51c07312907e0c356a1a672bba68c27ffa1b46123c03c3a1c72b321
   languageName: node
   linkType: hard
 
@@ -12662,7 +12662,7 @@ __metadata:
     "@vue/cli-service": 5.0.8
     "@vue/compiler-dom": 3.3.4
     "@vue/eslint-config-airbnb": 6.0.0
-    "@vue/test-utils": 1.3.5
+    "@vue/test-utils": 1.3.6
     babel-core: 7.0.0-bridge.0
     babel-jest: 28.1.3
     bootstrap: 5.3.0
