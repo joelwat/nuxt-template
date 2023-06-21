@@ -13025,7 +13025,7 @@ __metadata:
     vue: 2.7.14
     vue-jest: 3.0.7
     vue-template-compiler: 2.7.14
-    webpack: 5.87.0
+    webpack: 5.88.0
   languageName: unknown
   linkType: soft
 
@@ -18308,9 +18308,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.87.0, webpack@npm:^5.54.0":
-  version: 5.87.0
-  resolution: "webpack@npm:5.87.0"
+"webpack@npm:5.88.0":
+  version: 5.88.0
+  resolution: "webpack@npm:5.88.0"
   dependencies:
     "@types/eslint-scope": ^3.7.3
     "@types/estree": ^1.0.0
@@ -18341,7 +18341,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: b7d0e390f9d30627e303d54b17cb87b62f49ecffe2d35481f830679904993bae208e23748ffe0e6091b6dd4810562b2f2e88bb0f23b96515d74fb1e3c2898210
+  checksum: 9fd1568b34ec2e99ba97c8509a15ab2576ec80c396e7015551ec814b24cfc11de173acba3e114dafe95f1a6d460781b09d6201e6a1fb15110e1d01a09f61a283
   languageName: node
   linkType: hard
 
@@ -18380,6 +18380,43 @@ __metadata:
   bin:
     webpack: bin/webpack.js
   checksum: 013fa24c00d4261e16ebca60353fa6f848e417b5a44bdf28c16ebebd67fa61e960420bb314c8df05cfe2dad9b90efabcf38fd6875f2361922769a0384085ef1e
+  languageName: node
+  linkType: hard
+
+"webpack@npm:^5.54.0":
+  version: 5.87.0
+  resolution: "webpack@npm:5.87.0"
+  dependencies:
+    "@types/eslint-scope": ^3.7.3
+    "@types/estree": ^1.0.0
+    "@webassemblyjs/ast": ^1.11.5
+    "@webassemblyjs/wasm-edit": ^1.11.5
+    "@webassemblyjs/wasm-parser": ^1.11.5
+    acorn: ^8.7.1
+    acorn-import-assertions: ^1.9.0
+    browserslist: ^4.14.5
+    chrome-trace-event: ^1.0.2
+    enhanced-resolve: ^5.15.0
+    es-module-lexer: ^1.2.1
+    eslint-scope: 5.1.1
+    events: ^3.2.0
+    glob-to-regexp: ^0.4.1
+    graceful-fs: ^4.2.9
+    json-parse-even-better-errors: ^2.3.1
+    loader-runner: ^4.2.0
+    mime-types: ^2.1.27
+    neo-async: ^2.6.2
+    schema-utils: ^3.2.0
+    tapable: ^2.1.1
+    terser-webpack-plugin: ^5.3.7
+    watchpack: ^2.4.0
+    webpack-sources: ^3.2.3
+  peerDependenciesMeta:
+    webpack-cli:
+      optional: true
+  bin:
+    webpack: bin/webpack.js
+  checksum: b7d0e390f9d30627e303d54b17cb87b62f49ecffe2d35481f830679904993bae208e23748ffe0e6091b6dd4810562b2f2e88bb0f23b96515d74fb1e3c2898210
   languageName: node
   linkType: hard
 
