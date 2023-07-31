@@ -18,7 +18,7 @@
     "bootstrap": "5.3.1",
     "bootstrap-vue": "2.23.1",
     "core-js": "3.32.0",
-    "nuxt": "2.17.1",
+    "nuxt": "3.6.5",
     "typescript": "4.9.5",
     "vue": "2.7.14"
   },
