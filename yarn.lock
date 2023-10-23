@@ -4020,6 +4020,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vue/compiler-sfc@npm:2.7.15":
+  version: 2.7.15
+  resolution: "@vue/compiler-sfc@npm:2.7.15"
+  dependencies:
+    "@babel/parser": "npm:^7.18.4"
+    postcss: "npm:^8.4.14"
+    source-map: "npm:^0.6.1"
+  checksum: d5dc7667bea091702657cd9263371d407d708ab0a571da01ebff5870b7800ac709678285c7dc86ae23a0757ff8a5de13dceffc063687be6a7700f58519bd5f57
+  languageName: node
+  linkType: hard
+
 "@vue/component-compiler-utils@npm:^3.1.0, @vue/component-compiler-utils@npm:^3.3.0":
   version: 3.3.0
   resolution: "@vue/component-compiler-utils@npm:3.3.0"
@@ -12966,9 +12977,9 @@ __metadata:
     sass-loader: "npm:13.3.2"
     ts-jest: "npm:28.0.8"
     typescript: "npm:4.9.5"
-    vue: "npm:2.7.14"
+    vue: "npm:2.7.15"
     vue-jest: "npm:3.0.7"
-    vue-template-compiler: "npm:2.7.14"
+    vue-template-compiler: "npm:2.7.15"
     webpack: "npm:5.89.0"
   languageName: unknown
   linkType: soft
@@ -17971,7 +17982,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-template-compiler@npm:2.7.14, vue-template-compiler@npm:^2.6.14, vue-template-compiler@npm:^2.7.14":
+"vue-template-compiler@npm:2.7.15":
+  version: 2.7.15
+  resolution: "vue-template-compiler@npm:2.7.15"
+  dependencies:
+    de-indent: "npm:^1.0.2"
+    he: "npm:^1.2.0"
+  checksum: a826e8a733281d8d9a4b05b0fe039d56ebf9f94ea5bd2ae39641fd98fa313cf4be1415b3cfa4339ffde1f6b158283d05770eae86840c105e8a5887764759b9f2
+  languageName: node
+  linkType: hard
+
+"vue-template-compiler@npm:^2.6.14, vue-template-compiler@npm:^2.7.14":
   version: 2.7.14
   resolution: "vue-template-compiler@npm:2.7.14"
   dependencies:
@@ -17988,7 +18009,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:2.7.14, vue@npm:^2.7.10":
+"vue@npm:2.7.15":
+  version: 2.7.15
+  resolution: "vue@npm:2.7.15"
+  dependencies:
+    "@vue/compiler-sfc": "npm:2.7.15"
+    csstype: "npm:^3.1.0"
+  checksum: 92bc7bcef1a54fe6b98409a7094f7c8b1f4b8fcf52469380f130d0d671d581130b1ef8715f0e95020fc5dbffff7f519a0621206484b3fdee5e6319a76073fb0c
+  languageName: node
+  linkType: hard
+
+"vue@npm:^2.7.10":
   version: 2.7.14
   resolution: "vue@npm:2.7.14"
   dependencies:
