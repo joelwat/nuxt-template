@@ -4047,25 +4047,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/compiler-core@npm:3.3.13":
-  version: 3.3.13
-  resolution: "@vue/compiler-core@npm:3.3.13"
+"@vue/compiler-core@npm:3.4.0":
+  version: 3.4.0
+  resolution: "@vue/compiler-core@npm:3.4.0"
   dependencies:
-    "@babel/parser": "npm:^7.23.5"
-    "@vue/shared": "npm:3.3.13"
+    "@babel/parser": "npm:^7.23.6"
+    "@vue/shared": "npm:3.4.0"
+    entities: "npm:^4.5.0"
     estree-walker: "npm:^2.0.2"
     source-map-js: "npm:^1.0.2"
-  checksum: d0544ef5c12adb1f25523349dfb5468ee59928892c8476c491b66806840ab7de7a2c15b943ae3805dc8adcfd1a88435db08b97a0d23977eafe7e448a2a001754
+  checksum: 80b756240f9a4eafd14cb7c94adca8eb5c4707270d67c006192ea9f7a565b4682a9679935295218157f18ba7d73ee21e183688675cf2bbefddf8b983d9951133
   languageName: node
   linkType: hard
 
-"@vue/compiler-dom@npm:3.3.13":
-  version: 3.3.13
-  resolution: "@vue/compiler-dom@npm:3.3.13"
+"@vue/compiler-dom@npm:3.4.0":
+  version: 3.4.0
+  resolution: "@vue/compiler-dom@npm:3.4.0"
   dependencies:
-    "@vue/compiler-core": "npm:3.3.13"
-    "@vue/shared": "npm:3.3.13"
-  checksum: 6a0710f2ae7cbd0cff0037153d0d2a00f94e418478ef8f74d5ec6c6d1f7e509cfa8b263a5d8d81a303e98d2dc5c51a2eeeffd16ecfabf5ee59709fccdb8394b3
+    "@vue/compiler-core": "npm:3.4.0"
+    "@vue/shared": "npm:3.4.0"
+  checksum: e23c8b58d5b546649958f996eb625dbc0b09649e062c953553e00ef2363ac73a4e8ec188402391787388d458ae9021d386a146b02c5da0fdb32fa67c69467865
   languageName: node
   linkType: hard
 
@@ -4124,10 +4125,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/shared@npm:3.3.13":
-  version: 3.3.13
-  resolution: "@vue/shared@npm:3.3.13"
-  checksum: 8f49e0ee51f7f1edce16aa7a97b5a7a36d8cf36dfd03c9dba194b6eb0e9685eb71335f0a2b17af17753b742fa2346f96ec371a3c0a56677a4e7eeb0f13426a56
+"@vue/shared@npm:3.4.0":
+  version: 3.4.0
+  resolution: "@vue/shared@npm:3.4.0"
+  checksum: e521a7b66086fc29c10c6fe80363f2782b8786db9d030a7f1267eb0025921bafe335d4262b8e7fe4ffbf1a3c726a9510a7340dde5935a4bf3552ecd91f74510f
   languageName: node
   linkType: hard
 
@@ -7923,7 +7924,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"entities@npm:^4.2.0, entities@npm:^4.4.0":
+"entities@npm:^4.2.0, entities@npm:^4.4.0, entities@npm:^4.5.0":
   version: 4.5.0
   resolution: "entities@npm:4.5.0"
   checksum: 5b039739f7621f5d1ad996715e53d964035f75ad3b9a4d38c6b3804bb226e282ffeae2443624d8fdd9c47d8e926ae9ac009c54671243f0c3294c26af7cc85250
@@ -13102,7 +13103,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:5.62.0"
     "@typescript-eslint/parser": "npm:5.62.0"
     "@vue/cli-service": "npm:5.0.8"
-    "@vue/compiler-dom": "npm:3.3.13"
+    "@vue/compiler-dom": "npm:3.4.0"
     "@vue/eslint-config-airbnb": "npm:6.0.0"
     "@vue/test-utils": "npm:1.3.6"
     babel-core: "npm:7.0.0-bridge.0"
