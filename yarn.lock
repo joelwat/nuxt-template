@@ -4032,26 +4032,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/compiler-core@npm:3.4.12":
-  version: 3.4.12
-  resolution: "@vue/compiler-core@npm:3.4.12"
+"@vue/compiler-core@npm:3.4.13":
+  version: 3.4.13
+  resolution: "@vue/compiler-core@npm:3.4.13"
   dependencies:
     "@babel/parser": "npm:^7.23.6"
-    "@vue/shared": "npm:3.4.12"
+    "@vue/shared": "npm:3.4.13"
     entities: "npm:^4.5.0"
     estree-walker: "npm:^2.0.2"
     source-map-js: "npm:^1.0.2"
-  checksum: a3ab546dbe278541fadd864f5353e818fc29ab32116e1408756f7cb8a5023ec6369940d9c5dfe7d436d7232145b3c05067232df598a0fd0048c824853bf395e1
+  checksum: aef4ba090c9910bf3bc9b1f090c499715ed6712a93064ce426a27d17915a620be72ac14413eb6d06e4260096e61dc9fc5dc760efccc23f3abb578372b33a1ecc
   languageName: node
   linkType: hard
 
-"@vue/compiler-dom@npm:3.4.12":
-  version: 3.4.12
-  resolution: "@vue/compiler-dom@npm:3.4.12"
+"@vue/compiler-dom@npm:3.4.13":
+  version: 3.4.13
+  resolution: "@vue/compiler-dom@npm:3.4.13"
   dependencies:
-    "@vue/compiler-core": "npm:3.4.12"
-    "@vue/shared": "npm:3.4.12"
-  checksum: e863547032382ade6bf6fcb060a41178a907e8bf07a446ee51d652bc8abc14bfd8a3270fc33c7ddb84ad5522c613194785742ee43f702c36ffa74f97e5b4ce5f
+    "@vue/compiler-core": "npm:3.4.13"
+    "@vue/shared": "npm:3.4.13"
+  checksum: 194929a4b1830940f5709dafc010427ba18ad6a0b5ddd365d40dd81e4efbcc1abc4053a77c27ceb0131f86b657952aa3e9ea7cd44fe0a496d8d104d0b0e650da
   languageName: node
   linkType: hard
 
@@ -4110,10 +4110,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/shared@npm:3.4.12":
-  version: 3.4.12
-  resolution: "@vue/shared@npm:3.4.12"
-  checksum: be8501d35696d9d2fb1f8368a6a2c1be1f476a4275ac0db66313e568bbeb73e8e8b4abc0d65b30941dd40226f8154692846937cb152acea828318a7d442d03d1
+"@vue/shared@npm:3.4.13":
+  version: 3.4.13
+  resolution: "@vue/shared@npm:3.4.13"
+  checksum: 0d838c537360e900fe3b6ca0b51e14c0d26e875c38bafc741ca09ed3fe7eea3e4b18f5a1a3f753cf273a6870861dd8b9954df8f00b3a5fb9180b6e3b2c38df98
   languageName: node
   linkType: hard
 
@@ -13081,7 +13081,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:5.62.0"
     "@typescript-eslint/parser": "npm:5.62.0"
     "@vue/cli-service": "npm:5.0.8"
-    "@vue/compiler-dom": "npm:3.4.12"
+    "@vue/compiler-dom": "npm:3.4.13"
     "@vue/eslint-config-airbnb": "npm:6.0.0"
     "@vue/test-utils": "npm:1.3.6"
     babel-core: "npm:7.0.0-bridge.0"
