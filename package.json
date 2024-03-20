@@ -23,7 +23,7 @@
     "vue": "2.7.16"
   },
   "devDependencies": {
-    "@babel/core": "7.24.1",
+    "@babel/core": "7.24.3",
     "@nuxt/types": "2.17.3",
     "@nuxt/typescript-build": "2.1.0",
     "@nuxtjs/eslint-config-typescript": "10.0.0",
